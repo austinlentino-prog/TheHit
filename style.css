@@ -1,0 +1,140 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  background:linear-gradient(135deg,#0f172a,#1e293b,#312e81);
+  min-height:100vh;
+  color:white;
+  padding:30px;
+}
+
+h1{
+  font-size:4rem;
+  text-align:center;
+  margin-bottom:30px;
+  color:#38bdf8;
+}
+
+input{
+  width:70%;
+  max-width:700px;
+  padding:15px;
+  border:none;
+  border-radius:15px;
+  font-size:18px;
+}
+
+button{
+  padding:15px 25px;
+  border:none;
+  border-radius:15px;
+  background:#3b82f6;
+  color:white;
+  font-weight:bold;
+  cursor:pointer;
+  transition:.2s;
+}
+
+button:hover{
+  background:#2563eb;
+  transform:scale(1.05);
+}
+
+#feed{
+  margin-top:30px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.post{
+  background:rgba(255,255,255,.08);
+  backdrop-filter:blur(10px);
+  padding:20px;
+  border-radius:20px;
+  border:1px solid rgba(255,255,255,.1);
+}
+
+.username{
+  color:#38bdf8;
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+.content{
+  font-size:18px;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  background:linear-gradient(135deg,#0f172a,#1e293b,#312e81);
+  min-height:100vh;
+  color:white;
+  padding:30px;
+}
+
+h1{
+  font-size:4rem;
+  text-align:center;
+  margin-bottom:30px;
+  color:#38bdf8;
+}
+
+input{
+  width:70%;
+  max-width:700px;
+  padding:15px;
+  border:none;
+  border-radius:15px;
+  font-size:18px;
+}
+
+button{
+  padding:15px 25px;
+  border:none;
+  border-radius:15px;
+  background:#3b82f6;
+  color:white;
+  font-weight:bold;
+  cursor:pointer;
+  transition:.2s;
+}
+
+button:hover{
+  background:#2563eb;
+  transform:scale(1.05);
+}
+
+#feed{
+  margin-top:30px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.post{
+  background:rgba(255,255,255,.08);
+  backdrop-filter:blur(10px);
+  padding:20px;
+  border-radius:20px;
+  border:1px solid rgba(255,255,255,.1);
+}
+
+.username{
+  color:#38bdf8;
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+.content{
+  font-size:18px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TheHit</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+
+  <header>
+    <h1>TheHit</h1>
+    <p>The social network that actually hits.</p>
+  </header>
+
+  <main>
+
+    <div class="post-box">
+      <input
+        id="postInput"
+        placeholder="What's happening?"
+        maxlength="250"
+      >
+
+      <button onclick="makePost()">
+        Post
+      </button>
+    </div>
+
+    <div id="feed"></div>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
